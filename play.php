@@ -26,7 +26,15 @@ if (is_array($files)){
   <title>GH/tzchz/PHPlayer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://cube.me.uk/images/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    window.addEventListener('beforeinstallprompt', event => {
+        event.userChoice.then(result => {console.log(result.outcome)})
+      }
+    )
+  </script>
+  <link rel="icon" href="https://assets.060418.best/favicon.ico">
+  <script src="/app.js"></script>
   <style>*{
   	margin: 0;
 	  padding: 0;
