@@ -1,0 +1,13 @@
+{
+  "name": "PHPlayer",
+  "short_name": "PHPlayer",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "https://github.com/tzchz/PHPlayer",
+  "icons": [
+    {
+      "src": "https://assets.060418.best/icon.png",
+      "sizes": "767x767"
+    }
+  ]
+}
